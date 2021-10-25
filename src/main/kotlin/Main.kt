@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     var emprego = " "
     var nacionalidade = " "
     var tipoSanguineo = " "
-    var nascimento: Int
+    var nascimento = 0
     var leitura = Scanner(System.`in`)
 
 
@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
     print("Informe a sua idade: ")
     idade = leitura.nextInt()
     //Informando a idade acima e o cálculo para saber o ano de nascimento, logo abaixo.
-    nascimento = 2021 - idade
+    nascimento - idade
 
     print("Qual a sua preferência de emprego? ")
     emprego = leitura.next()

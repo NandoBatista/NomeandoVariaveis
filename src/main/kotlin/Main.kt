@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
     print("Informe a sua idade: ")
     idade = leitura.nextInt()
     //Informando a idade acima e o cálculo para saber o ano de nascimento, logo abaixo.
-    nascimento - idade
+    2021 - idade
 
     print("Qual a sua preferência de emprego? ")
     emprego = leitura.next()
